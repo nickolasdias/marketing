@@ -43,7 +43,7 @@ O conjunto de dados é uma amostra que resume o comportamento de uso do cartão 
 - `CASH_ADVANVE_TRX`: Número de transações feitas como "Cash in Advance"
 - `PURCHASES_TRX`: Número de compras
 - `CREDIT_LIMIT`: Limite do cartão de crédito
-- `PAYMENTS: Valor pago
+- `PAYMENTS`: Valor pago
 - `MINIMUM_PAYMENTS`: Valor mínimo pago
 - `PRC_FULL_PAYMENT`: Percentual de pagamentos da fatura completa
 - `TENURE`: Posse do titular do cartão
