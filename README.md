@@ -1,6 +1,6 @@
 # Projeto de Segmentação de Clientes - Departamento de Marketing
 
-<h2> O que é a segmentação de Cliente ? </h2>
+<h2> O que é a Segmentação de Cliente ? </h2>
 
 A segmentação de clientes é, basicamente, separá-los em grupos menores, usando aspectos comuns entre eles. Logo, o objetivo disso é oferecer uma comunicação mais assertiva e personalizada aos clientes, melhorando sua experiência e entregando valor relevante para eles.
 
