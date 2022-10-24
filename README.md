@@ -50,3 +50,15 @@ O conjunto de dados é uma amostra que resume o comportamento de uso do cartão 
 
 
 O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickolasdias/marketing/blob/main/notebooks/m01.ipynb)
+
+## 3.1 Principais Passos
+
+### 3.1.1 Descrição dos Dados - Estatística Descritiva
+
+![01](https://github.com/nickolasdias/marketing/imagens/01.png)
+
+
+
+### 3.1.2 Análise de Dados - Análise Univariada
+
+![01](https://github.com/nickolasdias/marketing/imagens/01.png)
