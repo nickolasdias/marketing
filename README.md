@@ -49,4 +49,4 @@ O conjunto de dados é uma amostra que resume o comportamento de uso do cartão 
 - `TENURE`: Posse do titular do cartão.
 
 
-O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickolasdias/marketing/notebooks/m01)
+O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickolasdias/marketing/blob/main/notebooks/m01.ipynb)
