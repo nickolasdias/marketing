@@ -55,10 +55,30 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 ### 3.1.1 Descrição dos Dados - Estatística Descritiva
 
-![01](https://github.com/nickolasdias/marketing/imagens/01.png)
-
-
 
 ### 3.1.2 Análise de Dados - Análise Univariada
 
-![01](https://github.com/nickolasdias/marketing/imagens/01.png)
+![01](https://github.com/nickolasdias/marketing/blob/main/Imagens/01.png)
+
+
+
+### 3.1.3 Análise de Dados
+
+
+![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
+
+
+![03](https://github.com/nickolasdias/marketing/blob/main/Imagens/3.png)
+
+![04](https://github.com/nickolasdias/marketing/blob/main/Imagens/4.png)
+
+![05](https://github.com/nickolasdias/marketing/blob/main/Imagens/5.png)
+
+![06](https://github.com/nickolasdias/marketing/blob/main/Imagens/6.png)
+
+![07](https://github.com/nickolasdias/marketing/blob/main/Imagens/7.png)
+
+
+![08](https://github.com/nickolasdias/marketing/blob/main/Imagens/corr.png)
+
+![09](https://github.com/nickolasdias/marketing/blob/main/Imagens/elbow.png)
