@@ -79,26 +79,66 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 ### 3.1.3 Análise de Dados - Validação de Hipótese
 
 
-
-- Qual o perfil do cliente que realizou a compra a vista mais cara ?
-- Qual o perfil do cliente que realizou a compra parcelada mais cara ?
-- Qual o perfil do cliente que sacou dinheiro do crédito mais alto ?
-- Qual o perfil do cliente que faz o pagamento total da fatura ?
-- Qual o perfil do cliente que não faz o pagamento da fatura ?
-- Qual o perfil do cliente que tem o limite de crédito abaixo da média ?
-- Qual o perfil do cliente que tem o limite de crédito acima da média - 
-
+#### Qual o perfil do cliente que realizou a compra a vista mais cara ?
 
 ![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
 
+**Observações:**
+
+- Cliente que atualiza o saldo com frequência.
+- Cliente que compra com frequencia, porém prefere fazer mais compras a vista do que parceladas.
+- Cliente que saca pouco do dinheiro disponível do cartão de crédito
+- Paga somente 25% da fatura total, ou seja, prefere pagar somente o minimo da fatura do cartão, por não usar tanto o cartão de crédi
+
+#### Qual o perfil do cliente que realizou a compra parcelada mais cara ?
 
 ![03](https://github.com/nickolasdias/marketing/blob/main/Imagens/3.png)
 
+**Observações:**
+
+- Cliente que mantém seu saldo atualizado moderadamente
+- Cliente que não realiza compras a vista, só compras parceladas.
+- Cliente que não costuma comprar com tanta frequência e nem sacar dinheiro do crédito.
+- Cliente que não paga a fatura total.
+
+
+#### Qual o perfil do cliente que sacou dinheiro do crédito mais alto ?
+
 ![04](https://github.com/nickolasdias/marketing/blob/main/Imagens/4.png)
+
+**Observações**
+
+- Cliente que mantém seu saldo atualizado com frequência.
+- Cliente que não realiza compras a vista e nem compras parceladas.
+- Cliente que realiza saques de dinheiro do crédito com frequência.
+- Cliente que não paga a fatura total somente o pagamento mínimo.
+
+
+#### Qual o perfil do cliente que faz o pagamento total da fatura ?
 
 ![05](https://github.com/nickolasdias/marketing/blob/main/Imagens/5.png)
 
+**Observações:**
+
+- 5.45% dos clientes fazem o pagamento total da fatura
+- 50% dos clientes tem limite de crédito, em média, de 4000 dólares.
+- Clientes tem uma frequencia de compra, em média, de 70%.
+- Clientes praticamente não realizam saque de dinheiro do cartão de crédito.
+- Clientes realizaram 23 compras em média.
+
+
+#### Qual o perfil do cliente que não faz o pagamento da fatura ?
+
 ![06](https://github.com/nickolasdias/marketing/blob/main/Imagens/6.png)
+
+**Observações:**
+
+- 65.95% dos clientes não pagam a fatura
+- 50% dos clientes tem limite de crédito, em média, de 3000 dólares.
+- Clientes tem uma frequência de compra, em média, de 41.27%.
+- Clientes sacam dinheiro do cartão de crédito com frequência de 16.20%. em média.
+- Clientes realizaram em média de 12 compras.
+
 
 ![07](https://github.com/nickolasdias/marketing/blob/main/Imagens/7.png)
 
