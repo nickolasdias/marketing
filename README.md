@@ -55,6 +55,21 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 ### 3.1.1 Descrição dos Dados - Estatística Descritiva
 
+![20](https://github.com/nickolasdias/marketing/blob/main/Imagens/11.png)
+
+**Algumas Observações:**
+
+- O saldo para fazer compras em média é 1564.47 dólares
+- Em média a atualização de saldo dos clientes é de 88%.
+- Em média, os clientes gastam 1003.20 dólares com compras.
+- Em média, os clientes gastam 592.44 dólares com compras a vista.
+- Em média, os clientes gastam 411.07 dólares com compras parceladas.
+- Em média, 36.44% dos clientes preferem fazer compras parceladas com frequência do que compras a vista (20.25%).
+- Em média, 13.51% dos clientes sacam dinheiro do crédito com frequência.
+- Em média, o limite do cartão dos clientes é de 4494.45 dólares.
+- Em média, 15.37% dos clientes pagam a fatura completa.
+- Em média, os clientes estão há 12 anos ativos no banco.
+
 
 ### 3.1.2 Análise de Dados - Análise Univariada
 
@@ -76,10 +91,10 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Mais de 7000 mil clientes estão no banco há 12 anos.
 
 
-### 3.1.3 Análise de Dados - Validação de Hipótese
+### 3.1.3 Análise de Dados - Validação de Hipóteses
 
 
-#### Qual o perfil do cliente que realizou a compra a vista mais cara ?
+#### 3.1.3.1 Qual o perfil do cliente que realizou a compra a vista mais cara ?
 
 ![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/1.png)
 
@@ -90,7 +105,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Cliente que saca pouco do dinheiro disponível do cartão de crédito
 - Paga somente 25% da fatura total, ou seja, prefere pagar somente o minimo da fatura do cartão, por não usar tanto o cartão de crédi
 
-#### Qual o perfil do cliente que realizou a compra parcelada mais cara ?
+#### 3.1.3.2 Qual o perfil do cliente que realizou a compra parcelada mais cara ?
 
 ![03](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
 
@@ -102,7 +117,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Cliente que não paga a fatura total.
 
 
-#### Qual o perfil do cliente que sacou dinheiro do crédito mais alto ?
+#### 3.1.3.3 Qual o perfil do cliente que sacou dinheiro do crédito mais alto ?
 
 ![04](https://github.com/nickolasdias/marketing/blob/main/Imagens/3.png)
 
@@ -114,7 +129,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Cliente que não paga a fatura total somente o pagamento mínimo.
 
 
-#### Qual o perfil do cliente que faz o pagamento total da fatura ?
+#### 3.1.3.4 Qual o perfil do cliente que faz o pagamento total da fatura ?
 
 ![05](https://github.com/nickolasdias/marketing/blob/main/Imagens/4.png)
 
@@ -127,7 +142,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Clientes realizaram 23 compras em média.
 
 
-#### Qual o perfil do cliente que não faz o pagamento da fatura ?
+#### 3.1.3.5 Qual o perfil do cliente que não faz o pagamento da fatura ?
 
 ![06](https://github.com/nickolasdias/marketing/blob/main/Imagens/5.png)
 
@@ -140,7 +155,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Clientes realizaram em média de 12 compras.
 
 
-#### Qual o perfil do cliente que tem o limite de crédito abaixo da média ?
+#### 3.1.3.6 Qual o perfil do cliente que tem o limite de crédito abaixo da média ?
 
 ![07](https://github.com/nickolasdias/marketing/blob/main/Imagens/6.png)
 
@@ -153,7 +168,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Clientes realizaram 10 compras em média.
 
 
-#### Qual o perfil do cliente que tem o limite de crédito acima da média ?
+#### 3.1.3.7 Qual o perfil do cliente que tem o limite de crédito acima da média ?
 
 ![20](https://github.com/nickolasdias/marketing/blob/main/Imagens/7.png)
 
@@ -179,7 +194,19 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - CASH_ADVANCED x CASH_ADVANCED_FREQUENCY: 0.63
 - CASH_ADVANCED_FREQUENCY x CASH_ADVANCED_TRX: 0.80
 
-### 3.1.5 Machine Learning - Definição do Número de Clusters
+
+### 3.1.5 Filtro de Variáveis - Seleção de Variáveis
+
+O critério para a seleção de variáveis é eliminar aqueles atributos que possuem o conceito multicolinearidade, ou seja, variáveis que explicam o mesmo fenômeno conforme as correlações.
+
+Exclusão das variáveis: 'CUST_ID', 'ONEOFF_PURCHASES', 'INSTALLMENTS_PURCHASES', 'ONEOFF_PURCHASES_FREQUENCY', 'PURCHASES_INSTALLMENTS_FREQUENCY', e 'CASH_ADVANCE'.
+
+### 3.1.6 Machine Learning - Definição do Número de Clusters
+
+- https://en.wikipedia.org/wiki/Elbow_method_(clustering)
+- https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/
+
+O Método Elbow é conhecido como método do cotovelo. Basicamente o que o método faz é testar a variância dos dados em relação ao número de clusters. A partir do valor indicado pelo “cotovelo” no gráfico significa que não existe ganho em relação ao aumento de clusters.
 
 ![09](https://github.com/nickolasdias/marketing/blob/main/Imagens/elbow.png)
 
@@ -188,13 +215,13 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Número de clusters a ser utilizado: 5
 
 
-### 3.1.6 Machine Learning - K-Means
+### 3.1.7 Machine Learning - K-Means
 
 O K-means é um algoritmo do tipo não supervisionado, ou seja, que não trabalha com dados rotulados.O objetivo desse algoritmo é encontrar similaridades entre os dados e agrupá-los conforme o número de cluster passado pelo argumento k. O algoritimo calcula a distancia entre dois ponto, utilizando a distancia euclidiana. A distância Euclidiana é a distância mais conhecidas dentre as métricas. Essa distância é a menor distância entre dois pontos no Rn, que pode ser representada pela hipotenusa, observada no Teorema de Pitágoras.
 
 **Clusterização dos Centros**
 
-
+![32](https://github.com/nickolasdias/marketing/blob/main/Imagens/22.png)
 
 **Observações:**
 
@@ -210,7 +237,7 @@ O K-means é um algoritmo do tipo não supervisionado, ou seja, que não trabalh
 
 
 
-### 3.1.6 Conclusão 
+### 3.1.8 Conclusão 
 
 Foi realizada a segmentação de clientes do banco de Nova York em que o modelo de clusterização, K-Means, realizou agrupou os clientes em 5 clusters, utilizando como principais características similares: frequência de compras, limite do cartão do de crédito, percentual de pagamento total da fatura, saque de dinheiro do cartão de crédito.
 
