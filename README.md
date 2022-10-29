@@ -60,9 +60,33 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 ![01](https://github.com/nickolasdias/marketing/blob/main/Imagens/01.png)
 
+**Observações:**
+
+- Mais de 4000 clientes tem saldo baixo para fazer compras.
+- Cerca de 6000 clientes mantém sua o saldo atualizado.
+- 2778 compras de até 100 dólares foram realizadas.
+- 4553 compras à vista de até 50 dólares foram realizadas.
+- 3994 compras parceladas de até 25 dólares foram realizadas.
+- 2043 clientes não realizam compras e 2178 clientes fizeram compras com frequência nos últimos 6 meses.
+- 4302 clientes não realizaram compras à vista com frequência nos últimos 6 meses.
+- 3915 clientes não realizaram compras parceladas com frequência nos últimos 6 meses.
+- 4628 clientes não realizaram saque de dinheiro do cartão de crédito nos últimos 6 meses.
+- A maioria dos clientes possuem limite de crédito entre 0 e 6200 dólares.
+- 5903 clientes não pagaram a fatura total nos últimos 6 meses.
+- Mais de 7000 mil clientes estão no banco há 12 anos.
 
 
 ### 3.1.3 Análise de Dados - Validação de Hipótese
+
+
+
+- Qual o perfil do cliente que realizou a compra a vista mais cara ?
+- Qual o perfil do cliente que realizou a compra parcelada mais cara ?
+- Qual o perfil do cliente que sacou dinheiro do crédito mais alto ?
+- Qual o perfil do cliente que faz o pagamento total da fatura ?
+- Qual o perfil do cliente que não faz o pagamento da fatura ?
+- Qual o perfil do cliente que tem o limite de crédito abaixo da média ?
+- Qual o perfil do cliente que tem o limite de crédito acima da média - 
 
 
 ![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
