@@ -16,18 +16,18 @@ Portanto, um dos pontos cruciais de marketing é conhecer os clientes e identifi
 - Evoluir o relacionamento com o cliente 
 - Clareza nas características do público que geram maior faturamento
 
-<h2> Desafio </h2>
+<h2> 1.0 Desafio </h2>
 
 Fomos contratados por um banco de Nova York para desenvolver um modelo que ajude na segmentação do cliente para definir a estratégia de marketing a ser tomada.
 O conjunto de dados é uma amostra que resume o comportamento de uso do cartão de crédito de 9000 clientes ativos durante os últimos 6 meses.
 
-<h2> Objetivo </h2>
+<h2> 2.0 Objetivo </h2>
 
 - Analisar dados
 
 - Construir um modelo de clusterização
 
-<h2> Dicionário de Dados </h2>
+<h3> Dicionário de Dados </h3>
 
 - `CUSTID` : Identificador do cliente.
 - `BALANCE`: Saldo para fazer compras.
@@ -51,7 +51,7 @@ O conjunto de dados é uma amostra que resume o comportamento de uso do cartão 
 
 O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickolasdias/marketing/blob/main/notebooks/m01.ipynb)
 
-## 3.1 Principais Passos
+<h2> 3.0 Principais Passos </h2>
 
 ### 3.1.1 Descrição dos Dados - Estatística Descritiva
 
