@@ -81,7 +81,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 #### Qual o perfil do cliente que realizou a compra a vista mais cara ?
 
-![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
+![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/1.png)
 
 **Observações:**
 
@@ -92,7 +92,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 #### Qual o perfil do cliente que realizou a compra parcelada mais cara ?
 
-![03](https://github.com/nickolasdias/marketing/blob/main/Imagens/3.png)
+![03](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
 
 **Observações:**
 
@@ -104,7 +104,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 #### Qual o perfil do cliente que sacou dinheiro do crédito mais alto ?
 
-![04](https://github.com/nickolasdias/marketing/blob/main/Imagens/4.png)
+![04](https://github.com/nickolasdias/marketing/blob/main/Imagens/3.png)
 
 **Observações**
 
@@ -116,7 +116,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 #### Qual o perfil do cliente que faz o pagamento total da fatura ?
 
-![05](https://github.com/nickolasdias/marketing/blob/main/Imagens/5.png)
+![05](https://github.com/nickolasdias/marketing/blob/main/Imagens/4.png)
 
 **Observações:**
 
@@ -129,7 +129,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 #### Qual o perfil do cliente que não faz o pagamento da fatura ?
 
-![06](https://github.com/nickolasdias/marketing/blob/main/Imagens/6.png)
+![06](https://github.com/nickolasdias/marketing/blob/main/Imagens/5.png)
 
 **Observações:**
 
@@ -140,7 +140,30 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 - Clientes realizaram em média de 12 compras.
 
 
-![07](https://github.com/nickolasdias/marketing/blob/main/Imagens/7.png)
+#### Qual o perfil do cliente que tem o limite de crédito abaixo da média ?
+
+![07](https://github.com/nickolasdias/marketing/blob/main/Imagens/6.png)
+
+**Observações:**
+
+- 60.32% dos clientes tem limite de crédito abaixo da média.
+- Clientes tem saldo para compra. em média, de 840 dólares.
+- Clientes tem uma frequencia de compra, em média, de 45%, sendo com realizações maiores de compras parceladas.
+- Clientes pagam a fatura total, em média, de 14.46%.
+- Clientes realizaram 10 compras em média.
+
+
+#### Qual o perfil do cliente que tem o limite de crédito acima da média ?
+
+![20](https://github.com/nickolasdias/marketing/blob/main/Imagens/7.png)
+
+**Observações:**
+
+- 39.66% dos clientes tem limite de crédito acima da média.
+- Clientes tem saldo para compra, em média, de 2667.29 dólares.
+- Clientes tem uma frequencia de compra, em média, de 40%.
+- Clientes pagam a fatura total, em média, de 30.96%.
+- Clientes realizaram 22 compras em média.
 
 
 ### 3.1.4 Análise Multivariada
