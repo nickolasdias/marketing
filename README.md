@@ -62,7 +62,7 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 
 
-### 3.1.3 Análise de Dados
+### 3.1.3 Análise de Dados - Validação de Hipótese
 
 
 ![02](https://github.com/nickolasdias/marketing/blob/main/Imagens/2.png)
@@ -79,6 +79,38 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 ![07](https://github.com/nickolasdias/marketing/blob/main/Imagens/7.png)
 
 
+### 3.1.4 Análise Multivariada
+
 ![08](https://github.com/nickolasdias/marketing/blob/main/Imagens/corr.png)
 
+**Algumas Correlações:**
+
+- PURCHASES x ONEOFF_PURCHASES: 0.92
+- PURCHASES x INSTALLMENTS_PURCHASES: 0.68
+- PURCHASES x PURCHASES_TRX: 0.69
+- PAYMENTS x PURCHASES: 0.60
+- CASH_ADVANCED x CASH_ADVANCED_FREQUENCY: 0.63
+- CASH_ADVANCED_FREQUENCY x CASH_ADVANCED_TRX: 0.80
+
+### 3.1.5 Machine Learning - Definição do Número de Clusters
+
 ![09](https://github.com/nickolasdias/marketing/blob/main/Imagens/elbow.png)
+
+**Observação:**
+
+- Número de clusters a ser utilizado: 5
+
+
+### 3.1.6 Machine Learning - K-Means
+
+O K-means é um algoritmo do tipo não supervisionado, ou seja, que não trabalha com dados rotulados.O objetivo desse algoritmo é encontrar similaridades entre os dados e agrupá-los conforme o número de cluster passado pelo argumento k. O algoritimo calcula a distancia entre dois ponto, utilizando a distancia euclidiana. A distância Euclidiana é a distância mais conhecidas dentre as métricas. Essa distância é a menor distância entre dois pontos no Rn, que pode ser representada pela hipotenusa, observada no Teorema de Pitágoras.
+
+### 3.1.6 Conclusão 
+
+Foi realizada a segmentação de clientes do banco de Nova York em que o modelo de clusterização, K-Means, realizou agrupou os clientes em 5 clusters, utilizando como principais características similares: frequência de compras, limite do cartão do de crédito, percentual de pagamento total da fatura, saque de dinheiro do cartão de crédito.
+
+- **Grupo 0:** 3103 clientes
+- **Grupo 1:** 1364 clientes
+- **Grupo 2:** 3121 clientes
+- **Grupo 3:** 318 clientes
+- **Grupo 4:** 1044 clientes
