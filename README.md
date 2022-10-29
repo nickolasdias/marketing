@@ -105,6 +105,24 @@ O desenvolvimento do projeto encontra-se no [notebook](https://github.com/nickol
 
 O K-means é um algoritmo do tipo não supervisionado, ou seja, que não trabalha com dados rotulados.O objetivo desse algoritmo é encontrar similaridades entre os dados e agrupá-los conforme o número de cluster passado pelo argumento k. O algoritimo calcula a distancia entre dois ponto, utilizando a distancia euclidiana. A distância Euclidiana é a distância mais conhecidas dentre as métricas. Essa distância é a menor distância entre dois pontos no Rn, que pode ser representada pela hipotenusa, observada no Teorema de Pitágoras.
 
+**Clusterização dos Centros**
+
+
+
+**Observações:**
+
+- **Grupo 0:** Clientes que realizam compras com forte frequência, tem o terceiro limite do cartão mais alto (4295) e o primeiro mais alto percentual da fatura completa (0.2910).
+
+- **Grupo 1:** Clientes que realizam compras com pouca frequência, porém tem um limite do cartão moderado e o terceiro mais alto percentual de pagamento da fatura completa (0.2257).
+
+- **Grupo 2:** Clientes que realizam compras com baixissima frequência, porém tem um limite do cartão moderado e sacam dinheiro do cartão de crédito com frequência em relação aos outros grupos. Tem um percentual baixissimo de pagamento da fatura completa (0.0249).
+
+- **Grupo 3:** Clientes que realizam compras com forte frequência (0.95), tem limite do cartão mais alto (10131) e o segundo mais alto percentual de pagamento da fatura completa (0.2379).
+
+- **Grupo 4:** Clientes que realizam compras com frequência moderada (0.37), tem o segundo limite de cartão mais alto (8770), sacam dinheiro do cartão de crédito com frequência moderada. Tem o percentual mais baixo de pagamento da fatura completa, porém o pagamento mínimo é o mais alto, em média, de 2990.73 dólares.
+
+
+
 ### 3.1.6 Conclusão 
 
 Foi realizada a segmentação de clientes do banco de Nova York em que o modelo de clusterização, K-Means, realizou agrupou os clientes em 5 clusters, utilizando como principais características similares: frequência de compras, limite do cartão do de crédito, percentual de pagamento total da fatura, saque de dinheiro do cartão de crédito.
